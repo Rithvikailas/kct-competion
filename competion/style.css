@@ -1,0 +1,246 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	height: 15vh;
+	width: 100%;
+	background-color: yellow;
+}
+.main{
+	height: 85vh;
+	width: 100%;
+	/*background-color: blue;*/
+	display: flex;
+
+}
+.main-text{
+	height: 85vh;
+	width: 50%;
+	background-color: white;
+}
+.main-img{
+	height: 85vh;
+	width: 50%;
+	padding: 5px;
+	/*background-color: red;*/
+	
+}
+.main-image{
+	height: 70vh;
+	width: 80%;
+	margin-top: 50px;
+	margin-left: 80px;
+	background-image: url(https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+
+}
+
+.main-text-cont{
+	margin-left: 90px;
+	margin-top: 80px;
+}
+
+.main-text-cont h1{
+	font-size: 60px;
+	font-family: brush script mt;
+}
+
+.main-btn{
+	margin-top: 30px;
+}
+.exp-btn{
+	border-radius: 10px;
+}
+.exp-i{
+	margin-left: 20px;
+
+}
+.icon-cont{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.icon-cont i{
+	font-size: 50px;
+	margin-top: 30px;
+	border-width: 3px solid yellow;
+}
+.vl{
+	border-right: 1px solid grey;
+}
+
+.about{
+	height: 100vh;
+	width: 100%;
+/*	background-color: blue;*/
+	display: flex;
+}
+.abt-img{
+	height: 90vh;
+	width: 40%;
+	padding: 5px;
+	background-image: url(https://wallpaperaccess.com/full/767033.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-top: 30px;
+	margin-left: 50px;
+
+}
+.abt-cont{
+	height: 90vh ;
+	width: 50%;
+	padding: 5px;
+	margin-top: 30px;
+	margin-left: 40px;
+	background-color: white;
+}
+
+.spl-rec{
+	height: 190px;
+	width: 100%;
+	/*background-color: orange;*/
+	margin-top: 20px;
+	display: flex;
+	
+}
+.spl-rec-1{
+	height: 160px;
+	width: 150px;
+	background-image: url(https://cdn.wallpapersafari.com/34/46/W6l4nL.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+.spl-rec-2{
+	height: 160px;
+	width: 150px;
+	background-position: center;
+	background-size: cover;
+	background-image: url(https://wallpapercave.com/wp/wp3495545.jpg);
+}
+.spl-rec-3{
+	height: 160px;
+	width: 150px;
+	background-position: center;
+	background-size: cover;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeDKPtCBFlZyNxA07XFVguH8jzhmkSsjgqUg&usqp=CAU);
+}
+.spl-rec p{
+	margin-top: 160px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.special-dishes{
+	height: 100vh;
+	width: 100%;
+	/*background-color: blue;*/
+}
+.special-dishes-head{
+	/*background-color: yellow;*/
+	height: 15vh;
+}
+.special-dishes-head h1{
+	margin-left: 42%;
+	margin-top: 50px;
+	padding-top: 22px;
+}
+.special-dishes-cont{
+	height: 80vh;
+	width: 100%;
+	display: flex;
+}
+.spl-dish-cont{
+	height: 80vh;
+	width: 50%;
+	/*background-color: grey;*/
+	padding: 50px;
+}
+.spl-dish-cont h2{
+	margin-left: 50px;
+	font-weight: bold;
+}
+.spl-dish-cont p{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.spl-dish-cont h4{
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.spl-dish-cont button{
+	margin-left: 50px;
+	margin-top: 30px;
+	border-radius: 20px;
+}
+
+
+.spl-dish-img{
+	height: 80vh;
+	width: 40%;
+	background-image: url(https://wallpapercave.com/wp/wp3108352.jpg);
+	background-position: right;
+	background-size: cover;
+	margin-left: 80px;
+	margin-top: 20px;
+}
+
+
+//////////////////////////////////////////////////
+
+
+.special-dishes-2{
+	height: 100vh;
+	width: 100%;
+	/*background-color: blue;*/
+
+}
+
+
+
+.special-dishes-cont-2{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+}
+.spl-dish-cont-2{
+	height: 80vh;
+	width: 50%;
+	/*background-color: grey;*/
+	padding: 50px;
+	margin-top: 40px;
+}
+.spl-dish-cont-2 h2{
+	margin-left: 50px;
+	font-weight: bold;
+}
+.spl-dish-cont-2 p{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.spl-dish-cont-2 h4{
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.spl-dish-cont-2 button{
+	margin-left: 50px;
+	margin-top: 30px;
+	border-radius: 20px;
+}
+
+
+.spl-dish-img-2{
+	height: 80vh;
+	width: 40%;
+	background-image: url(https://content.jdmagicbox.com/comp/pune/n8/020pxx20.xx20.180918121046.u6n8/catalogue/shiv-shankar-chinese-foods-wakad-pune-chinese-fast-food-joints-gwxra9lwdi.jpg);
+	background-position: right;
+	background-size: cover;
+	margin-left: 80px;
+	margin-top: 100px;
+}
+
